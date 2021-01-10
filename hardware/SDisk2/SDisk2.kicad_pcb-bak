@@ -701,7 +701,7 @@
   )
 
   (module SDisk2:attend-104d-tca0-r06-sdcard-holder (layer F.Cu) (tedit 5FFAF61B) (tstamp 5FFB3BF7)
-    (at 66.174001 106.779001)
+    (at 142.621 118.872)
     (path /5FF919EB)
     (attr smd)
     (fp_text reference J1 (at 0 0.5) (layer F.SilkS)

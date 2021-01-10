@@ -531,8 +531,6 @@ F 3 "~" H 8350 2400 50  0001 C CNN
 	1    8350 2400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8350 2250 8350 2100
 $Comp
 L power:+5V #PWR0110
 U 1 1 60259CCF
@@ -1033,17 +1031,6 @@ Wire Wire Line
 	700  2600 950  2600
 Wire Wire Line
 	2950 2700 2750 2700
-$Comp
-L Connector:SD_Card J1
-U 1 1 5FF919EB
-P 1850 2400
-F 0 "J1" H 1850 3065 50  0000 C CNN
-F 1 "SD_Card" H 1850 2974 50  0000 C CNN
-F 2 "" H 1850 2400 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1850 2400 50  0001 C CNN
-	1    1850 2400
-	-1   0    0    1   
-$EndComp
 Text Label 2750 2100 0    50   ~ 0
 SD_DO
 Wire Wire Line
@@ -1268,7 +1255,6 @@ Wire Notes Line
 	2600 1500 1100 1500
 Text Notes 1100 1200 0    50   ~ 0
 NOTE/WARNING\n
-NoConn ~ 950  2200
 NoConn ~ 950  2300
 Text Label 7650 6400 0    50   ~ 0
 BTN_DOWN
@@ -1276,4 +1262,35 @@ Text Label 7650 5800 0    50   ~ 0
 BTN_ENTER
 Text Label 8050 5200 2    50   ~ 0
 BTN_UP
+Wire Wire Line
+	8350 2050 8350 2100
+Connection ~ 8350 2100
+Wire Wire Line
+	8350 2100 8350 2250
+$Comp
+L SDisk2:SD_Card J1
+U 1 1 5FF919EB
+P 1850 2400
+F 0 "J1" H 1850 3065 50  0000 C CNN
+F 1 "SD_Card" H 1850 2974 50  0000 C CNN
+F 2 "SDisk2:attend-104d-tca0-r06-sdcard-holder" H 1850 2400 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1850 2400 50  0001 C CNN
+	1    1850 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  2200 900  2200
+Wire Wire Line
+	900  2200 900  2950
+$Comp
+L power:GND #PWR?
+U 1 1 5FFFE7B3
+P 900 2950
+F 0 "#PWR?" H 900 2700 50  0001 C CNN
+F 1 "GND" H 905 2777 50  0000 C CNN
+F 2 "" H 900 2950 50  0001 C CNN
+F 3 "" H 900 2950 50  0001 C CNN
+	1    900  2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
