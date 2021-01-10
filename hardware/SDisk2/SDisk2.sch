@@ -275,7 +275,7 @@ U 1 1 60197353
 P 5100 6350
 F 0 "R4" V 4893 6350 50  0000 C CNN
 F 1 "270" V 4984 6350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" V 5030 6350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5030 6350 50  0001 C CNN
 F 3 "~" H 5100 6350 50  0001 C CNN
 	1    5100 6350
 	0    1    1    0   
@@ -1159,7 +1159,7 @@ U 1 1 6085C96E
 P 1750 4400
 F 0 "DS1" H 1750 3419 50  0000 C CNN
 F 1 "WH1602B-TMI-CT# " H 1750 3510 50  0000 C CNN
-F 2 "" H 1750 3500 50  0001 C CIN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 1750 3500 50  0001 C CIN
 F 3 "https://store.comet.bg/download-file.php?id=1596" H 2450 4400 50  0001 C CNN
 	1    1750 4400
 	1    0    0    1   
@@ -1274,7 +1274,7 @@ P 1850 2400
 F 0 "J1" H 1850 3065 50  0000 C CNN
 F 1 "SD_Card" H 1850 2974 50  0000 C CNN
 F 2 "SDisk2:attend-104d-tca0-r06-sdcard-holder" H 1850 2400 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1850 2400 50  0001 C CNN
+F 3 "https://store.comet.bg/download-file.php?id=8828" H 1850 2400 50  0001 C CNN
 	1    1850 2400
 	-1   0    0    1   
 $EndComp

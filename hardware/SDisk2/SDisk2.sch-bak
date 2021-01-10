@@ -1159,7 +1159,7 @@ U 1 1 6085C96E
 P 1750 4400
 F 0 "DS1" H 1750 3419 50  0000 C CNN
 F 1 "WH1602B-TMI-CT# " H 1750 3510 50  0000 C CNN
-F 2 "" H 1750 3500 50  0001 C CIN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 1750 3500 50  0001 C CIN
 F 3 "https://store.comet.bg/download-file.php?id=1596" H 2450 4400 50  0001 C CNN
 	1    1750 4400
 	1    0    0    1   
@@ -1274,7 +1274,7 @@ P 1850 2400
 F 0 "J1" H 1850 3065 50  0000 C CNN
 F 1 "SD_Card" H 1850 2974 50  0000 C CNN
 F 2 "SDisk2:attend-104d-tca0-r06-sdcard-holder" H 1850 2400 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1850 2400 50  0001 C CNN
+F 3 "https://store.comet.bg/download-file.php?id=8828" H 1850 2400 50  0001 C CNN
 	1    1850 2400
 	-1   0    0    1   
 $EndComp
@@ -1283,10 +1283,10 @@ Wire Wire Line
 Wire Wire Line
 	900  2200 900  2950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 5FFFE7B3
 P 900 2950
-F 0 "#PWR?" H 900 2700 50  0001 C CNN
+F 0 "#PWR0128" H 900 2700 50  0001 C CNN
 F 1 "GND" H 905 2777 50  0000 C CNN
 F 2 "" H 900 2950 50  0001 C CNN
 F 3 "" H 900 2950 50  0001 C CNN
