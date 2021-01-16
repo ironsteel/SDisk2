@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS125 U1
+L SDisk2:74LS125 U1
 U 2 1 5FF8AA8E
 P 6950 3800
 F 0 "U1" H 6950 4117 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 6950 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:74LS125 U1
+L SDisk2:74LS125 U1
 U 3 1 5FF8B384
 P 2100 6500
 F 0 "U1" H 2100 6817 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 2100 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS125 U1
+L SDisk2:74LS125 U1
 U 5 1 5FF8C405
 P 3000 6450
 F 0 "U1" H 3230 6496 50  0000 L CNN
@@ -98,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	950  6500 950  6750
 $Comp
-L 74xx:74LS125 U1
+L SDisk2:74LS125 U1
 U 4 1 5FF8B9E8
 P 1250 6500
 F 0 "U1" H 1250 6817 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 7550 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS125 U1
+L SDisk2:74LS125 U1
 U 1 1 5FF89C47
 P 6950 3000
 F 0 "U1" H 6950 3317 50  0000 C CNN
@@ -1154,7 +1154,7 @@ NoConn ~ 1350 4300
 NoConn ~ 1350 4400
 NoConn ~ 1350 4500
 $Comp
-L Display_Character:WC1602A DS1
+L SDisk2:WC1602B DS1
 U 1 1 6085C96E
 P 1750 4400
 F 0 "DS1" H 1750 3419 50  0000 C CNN
