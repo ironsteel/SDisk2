@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LS125
+D Quad buffer 3-State outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/gpn/sn74LS125
+$ENDCMP
+#
+$CMP 74LVC125
+D Quad buffer 3-State outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/gpn/sn74LVC125
+$ENDCMP
+#
 $CMP ATmega168A-PU
 D 20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
@@ -88,12 +100,6 @@ $CMP SD_Card
 D SD Card Reader
 K connector SD
 F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
-$ENDCMP
-#
-$CMP WC1602A
-D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
-K display LCD dot-matrix
-F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
 $CMP WC1602B
