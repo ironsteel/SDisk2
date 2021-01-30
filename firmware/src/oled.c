@@ -13,6 +13,8 @@ unsigned char ssd1306_contr;
 unsigned char ssd1306_inv;
 unsigned char ssd1306_under;
 unsigned char ssd1306_over;
+unsigned char lcd_contrast;
+unsigned char lcd_offset;
 
 void  ssd1306_command(int c)
 {

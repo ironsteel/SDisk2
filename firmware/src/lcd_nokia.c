@@ -40,6 +40,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #define MSBFIRST 0
 #define LSBFIRST 1
 
+unsigned char lcd_contrast;
 void lcd_send(int pin, int value)
 {
 	if(value == 0)

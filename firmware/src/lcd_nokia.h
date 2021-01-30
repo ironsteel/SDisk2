@@ -52,7 +52,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include <stdlib.h>
 #include "string.h"
 
-unsigned char lcd_contrast;
+extern unsigned char lcd_contrast;
 unsigned char inverse;
 unsigned char under;
 unsigned char over;

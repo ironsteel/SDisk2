@@ -54,8 +54,8 @@
 #define MIN_CONTRAST 0
 #define MAX_CONTRAST 255
 
-unsigned char lcd_contrast;
-unsigned char lcd_offset;
+extern unsigned char lcd_contrast;
+extern unsigned char lcd_offset;
 
 void ssd1306_command(int c);
 void ssd1306_data(unsigned char c);

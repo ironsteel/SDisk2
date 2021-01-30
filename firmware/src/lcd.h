@@ -45,7 +45,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include <stdlib.h>
 #include "string.h"
 
-unsigned char lcd_contrast;
+extern unsigned char lcd_contrast;
 
 void lcd_port(unsigned char c);
 void lcd_cmd(unsigned char c);

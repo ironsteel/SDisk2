@@ -36,6 +36,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include "lcd.h"
 #include <util/delay.h>
 
+unsigned char lcd_contrast;
+
 void lcd_port(unsigned char c)
 {
 	LCD_DISABLE;
